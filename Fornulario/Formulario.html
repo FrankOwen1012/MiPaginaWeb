@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Formulario.css">
+    <title>Separa Tu cupo Hermano!!</title>
+</head>
+
+<body>
+    <nav class="nav">
+
+    </nav>
+
+
+    <main>
+
+        <article class="form">
+            <article class="form-subgrid">
+
+
+                <form>
+                    <img class="form-img" src="../assets/rsz_fondo4.bmp">
+                    <p>Que Series Desea?</p>
+                    <br>
+                    <input type="text" id="name" placeholder="Ingrese Nombre"
+                        title="el campo solo acepta letras y espacios en blanco" required
+                        pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$">
+                    <input type="text" id="last-name" placeholder="Ingrese Apellido" required>
+                    <br>
+                    <input type="email" id="correo" placeholder="Ingrese Correo (Correctamente xfavor)"
+                        pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required
+                        title="Usa el  @hotmail.com"><br><br><br>
+                    <textarea name="comments" cols="45" rows="5" placeholder="Escribe -->Nombre de La Series(Temporada)_____ ejemplo
+Blue blood (Temporada 2) si son Mas (Temporada 2  -  5)" required data-pattern="^.{1,255}$"
+                        title="Tu comentario no debe exceder los 255 caracteres"></textarea>
+                    <br>
+                    <select name=" Paises" required>
+                        <option>¿De que Pais Eres?</option>
+                        <option value="Peru"> Peru </option>
+                        <option value="Mexico"> Mexico </option>
+                        <option value="Bolivia"> Bolivia </option>
+                    </select>
+                    <input type="submit" value="Golpeame" class="Golpeame">
+
+                </form>
+
+
+            </article>
+
+        </article>
+
+
+    </main>
+    <article class="circule-user">
+        <p>💻</p>
+        <article class="circule-user-2 no-visible ">
+            <p>Item1 </p>
+            <p>Item2 </p>
+            <p>Item3 </p>
+        </article>
+
+    </article>
+
+    <footer class="footer">
+        <p><a href="www.facebook.com/SeriesPeliculasyMass"><img src="../assets/Mi-logo.png"></a></p>
+        <p>SERIES PELICULAS Y MAS</p>
+
+        <P>Peru -Arequipa </P>
+        <p style="font-size: 20px;">2022</p>
+        <p>Copyright Derechos Reservados 2022 </p>
+
+    </footer>
+    <script src="../js/juntameTodos.js" type="module"></script>
+</body>
+
+</html>
